@@ -6,4 +6,11 @@
 //  Copyright © 2018 JYSK Indonesia. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class HelpViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}

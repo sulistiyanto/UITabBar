@@ -6,4 +6,11 @@
 //  Copyright © 2018 JYSK Indonesia. All rights reserved.
 //
 
-import Foundation
+import ReSwift
+
+func appReducer(action: Action, state: AppState?) -> AppState {
+    return AppState(
+        routingState: routingReducer(action: action, state: state?.routingState),
+        tabBarState: tabBarReduce(actions: action, state: state?.tabBarState)
+    )
+}

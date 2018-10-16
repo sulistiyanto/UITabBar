@@ -6,4 +6,17 @@
 //  Copyright © 2018 JYSK Indonesia. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import ReSwift
+
+class TabBarViewController:  UITabBarController, StoreSubscriber, UITabBarControllerDelegate {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .blue
+    }
+    
+    func newState(state: TabBarState) {
+        
+    }
+}

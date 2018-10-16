@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2789FCFF3E0F4CF18635622A /* Pods_UITabBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C600311358AF55B9D9B0DDD0 /* Pods_UITabBarTests.framework */; };
+		3336F1CA52E439AA113506B4 /* Pods_UITabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18696DD47C814C4E5491EF70 /* Pods_UITabBar.framework */; };
+		AB29862FCAAAD9B85244F7B9 /* Pods_UITabBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AC780AE8AD417092CD6340 /* Pods_UITabBarUITests.framework */; };
 		CED962F92174925600BD5747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED962F82174925600BD5747 /* AppDelegate.swift */; };
-		CED962FB2174925600BD5747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED962FA2174925600BD5747 /* ViewController.swift */; };
 		CED962FE2174925600BD5747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED962FC2174925600BD5747 /* Main.storyboard */; };
 		CED963002174925700BD5747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED962FF2174925700BD5747 /* Assets.xcassets */; };
 		CED963032174925700BD5747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED963012174925700BD5747 /* LaunchScreen.storyboard */; };
 		CED9630E2174925700BD5747 /* UITabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9630D2174925700BD5747 /* UITabBarTests.swift */; };
 		CED963192174925700BD5747 /* UITabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963182174925700BD5747 /* UITabBarUITests.swift */; };
+		CED963272174C54200BD5747 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963262174C54200BD5747 /* TabBarViewController.swift */; };
+		CED9632A2174C61500BD5747 /* TabBarState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963292174C61500BD5747 /* TabBarState.swift */; };
+		CED9632C2174C64600BD5747 /* BottomMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9632B2174C64600BD5747 /* BottomMenuModel.swift */; };
+		CED9632F2174C69A00BD5747 /* TabBarReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9632E2174C69A00BD5747 /* TabBarReducer.swift */; };
+		CED963322174C72900BD5747 /* TabBarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963312174C72900BD5747 /* TabBarAction.swift */; };
+		CED963352174C76500BD5747 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963342174C76500BD5747 /* HomeViewController.swift */; };
+		CED963372174C7A100BD5747 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963362174C7A100BD5747 /* HelpViewController.swift */; };
+		CED963392174C7DB00BD5747 /* ProfileCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963382174C7DB00BD5747 /* ProfileCollectionViewController.swift */; };
+		CED9633B2174C80600BD5747 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9633A2174C80600BD5747 /* StudentViewController.swift */; };
+		CED9633D2174CC1300BD5747 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9633C2174CC1300BD5747 /* AppState.swift */; };
+		CED9633F2174CC2000BD5747 /* RoutingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9633E2174CC2000BD5747 /* RoutingState.swift */; };
+		CED963412174CC3A00BD5747 /* RoutingDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963402174CC3A00BD5747 /* RoutingDestination.swift */; };
+		CED963432174CC9100BD5747 /* RoutingReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963422174CC9100BD5747 /* RoutingReducer.swift */; };
+		CED963452174CCA300BD5747 /* RoutingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963442174CCA300BD5747 /* RoutingAction.swift */; };
+		CED963472174CCC000BD5747 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963462174CCC000BD5747 /* AppReducer.swift */; };
+		CED963492174CD0100BD5747 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED963482174CD0100BD5747 /* AppRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18696DD47C814C4E5491EF70 /* Pods_UITabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AC780AE8AD417092CD6340 /* Pods_UITabBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITabBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		389BD0738F0D880A97215B18 /* Pods-UITabBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITabBarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITabBarUITests/Pods-UITabBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD58FC2A782CCC42239AAA9B /* Pods-UITabBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITabBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITabBarTests/Pods-UITabBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEEB56DC73F331A7E165EF51 /* Pods-UITabBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITabBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITabBarTests/Pods-UITabBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		B114FC9C51803AAD90958A4F /* Pods-UITabBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITabBarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITabBarUITests/Pods-UITabBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C600311358AF55B9D9B0DDD0 /* Pods_UITabBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITabBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED962F52174925600BD5747 /* UITabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED962F82174925600BD5747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CED962FA2174925600BD5747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CED962FD2174925600BD5747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED962FF2174925700BD5747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED963022174925700BD5747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +71,24 @@
 		CED963142174925700BD5747 /* UITabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED963182174925700BD5747 /* UITabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarUITests.swift; sourceTree = "<group>"; };
 		CED9631A2174925700BD5747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED963262174C54200BD5747 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CED963292174C61500BD5747 /* TabBarState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarState.swift; sourceTree = "<group>"; };
+		CED9632B2174C64600BD5747 /* BottomMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuModel.swift; sourceTree = "<group>"; };
+		CED9632E2174C69A00BD5747 /* TabBarReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarReducer.swift; sourceTree = "<group>"; };
+		CED963312174C72900BD5747 /* TabBarAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAction.swift; sourceTree = "<group>"; };
+		CED963342174C76500BD5747 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CED963362174C7A100BD5747 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		CED963382174C7DB00BD5747 /* ProfileCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewController.swift; sourceTree = "<group>"; };
+		CED9633A2174C80600BD5747 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		CED9633C2174CC1300BD5747 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		CED9633E2174CC2000BD5747 /* RoutingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingState.swift; sourceTree = "<group>"; };
+		CED963402174CC3A00BD5747 /* RoutingDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingDestination.swift; sourceTree = "<group>"; };
+		CED963422174CC9100BD5747 /* RoutingReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingReducer.swift; sourceTree = "<group>"; };
+		CED963442174CCA300BD5747 /* RoutingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAction.swift; sourceTree = "<group>"; };
+		CED963462174CCC000BD5747 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		CED963482174CD0100BD5747 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		D07AA8D8FF75C875126874AA /* Pods-UITabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITabBar/Pods-UITabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		F9FBE18895CC68DC90FCA8AA /* Pods-UITabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITabBar/Pods-UITabBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3336F1CA52E439AA113506B4 /* Pods_UITabBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2789FCFF3E0F4CF18635622A /* Pods_UITabBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +112,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB29862FCAAAD9B85244F7B9 /* Pods_UITabBarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23037580FF34749765397439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D07AA8D8FF75C875126874AA /* Pods-UITabBar.debug.xcconfig */,
+				F9FBE18895CC68DC90FCA8AA /* Pods-UITabBar.release.xcconfig */,
+				AD58FC2A782CCC42239AAA9B /* Pods-UITabBarTests.debug.xcconfig */,
+				AEEB56DC73F331A7E165EF51 /* Pods-UITabBarTests.release.xcconfig */,
+				B114FC9C51803AAD90958A4F /* Pods-UITabBarUITests.debug.xcconfig */,
+				389BD0738F0D880A97215B18 /* Pods-UITabBarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		803B62360B7F130477DEA1E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18696DD47C814C4E5491EF70 /* Pods_UITabBar.framework */,
+				C600311358AF55B9D9B0DDD0 /* Pods_UITabBarTests.framework */,
+				20AC780AE8AD417092CD6340 /* Pods_UITabBarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CED962EC2174925600BD5747 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +149,8 @@
 				CED9630C2174925700BD5747 /* UITabBarTests */,
 				CED963172174925700BD5747 /* UITabBarUITests */,
 				CED962F62174925600BD5747 /* Products */,
+				23037580FF34749765397439 /* Pods */,
+				803B62360B7F130477DEA1E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +167,18 @@
 		CED962F72174925600BD5747 /* UITabBar */ = {
 			isa = PBXGroup;
 			children = (
+				CED963332174C75500BD5747 /* View */,
+				CED963302174C71300BD5747 /* Action */,
+				CED9632D2174C67D00BD5747 /* Reducers */,
+				CED963282174C60C00BD5747 /* State */,
 				CED962F82174925600BD5747 /* AppDelegate.swift */,
-				CED962FA2174925600BD5747 /* ViewController.swift */,
 				CED962FC2174925600BD5747 /* Main.storyboard */,
 				CED962FF2174925700BD5747 /* Assets.xcassets */,
 				CED963012174925700BD5747 /* LaunchScreen.storyboard */,
 				CED963042174925700BD5747 /* Info.plist */,
+				CED963262174C54200BD5747 /* TabBarViewController.swift */,
+				CED963402174CC3A00BD5747 /* RoutingDestination.swift */,
+				CED963482174CD0100BD5747 /* AppRouter.swift */,
 			);
 			path = UITabBar;
 			sourceTree = "<group>";
@@ -125,6 +201,47 @@
 			path = UITabBarUITests;
 			sourceTree = "<group>";
 		};
+		CED963282174C60C00BD5747 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				CED963292174C61500BD5747 /* TabBarState.swift */,
+				CED9632B2174C64600BD5747 /* BottomMenuModel.swift */,
+				CED9633C2174CC1300BD5747 /* AppState.swift */,
+				CED9633E2174CC2000BD5747 /* RoutingState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		CED9632D2174C67D00BD5747 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				CED9632E2174C69A00BD5747 /* TabBarReducer.swift */,
+				CED963422174CC9100BD5747 /* RoutingReducer.swift */,
+				CED963462174CCC000BD5747 /* AppReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		CED963302174C71300BD5747 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				CED963312174C72900BD5747 /* TabBarAction.swift */,
+				CED963442174CCA300BD5747 /* RoutingAction.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		CED963332174C75500BD5747 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CED963342174C76500BD5747 /* HomeViewController.swift */,
+				CED963362174C7A100BD5747 /* HelpViewController.swift */,
+				CED963382174C7DB00BD5747 /* ProfileCollectionViewController.swift */,
+				CED9633A2174C80600BD5747 /* StudentViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED9631D2174925700BD5747 /* Build configuration list for PBXNativeTarget "UITabBar" */;
 			buildPhases = (
+				1673BA1B54DBA1419C603665 /* [CP] Check Pods Manifest.lock */,
 				CED962F12174925600BD5747 /* Sources */,
 				CED962F22174925600BD5747 /* Frameworks */,
 				CED962F32174925600BD5747 /* Resources */,
+				E36AE6C30D5722A225E7A2E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED963202174925700BD5747 /* Build configuration list for PBXNativeTarget "UITabBarTests" */;
 			buildPhases = (
+				9B45F5BC2218582BB1267B68 /* [CP] Check Pods Manifest.lock */,
 				CED963052174925700BD5747 /* Sources */,
 				CED963062174925700BD5747 /* Frameworks */,
 				CED963072174925700BD5747 /* Resources */,
@@ -167,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED963232174925700BD5747 /* Build configuration list for PBXNativeTarget "UITabBarUITests" */;
 			buildPhases = (
+				9C103F2C22A881EBBC8E773E /* [CP] Check Pods Manifest.lock */,
 				CED963102174925700BD5747 /* Sources */,
 				CED963112174925700BD5747 /* Frameworks */,
 				CED963122174925700BD5747 /* Resources */,
@@ -251,13 +372,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1673BA1B54DBA1419C603665 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UITabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B45F5BC2218582BB1267B68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UITabBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C103F2C22A881EBBC8E773E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UITabBarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36AE6C30D5722A225E7A2E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UITabBar/Pods-UITabBar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITabBar/Pods-UITabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CED962F12174925600BD5747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED962FB2174925600BD5747 /* ViewController.swift in Sources */,
+				CED963392174C7DB00BD5747 /* ProfileCollectionViewController.swift in Sources */,
+				CED963412174CC3A00BD5747 /* RoutingDestination.swift in Sources */,
+				CED963472174CCC000BD5747 /* AppReducer.swift in Sources */,
+				CED963322174C72900BD5747 /* TabBarAction.swift in Sources */,
+				CED963452174CCA300BD5747 /* RoutingAction.swift in Sources */,
+				CED963432174CC9100BD5747 /* RoutingReducer.swift in Sources */,
+				CED9633D2174CC1300BD5747 /* AppState.swift in Sources */,
+				CED9632A2174C61500BD5747 /* TabBarState.swift in Sources */,
+				CED9633F2174CC2000BD5747 /* RoutingState.swift in Sources */,
+				CED963352174C76500BD5747 /* HomeViewController.swift in Sources */,
+				CED963372174C7A100BD5747 /* HelpViewController.swift in Sources */,
+				CED963272174C54200BD5747 /* TabBarViewController.swift in Sources */,
 				CED962F92174925600BD5747 /* AppDelegate.swift in Sources */,
+				CED963492174CD0100BD5747 /* AppRouter.swift in Sources */,
+				CED9632F2174C69A00BD5747 /* TabBarReducer.swift in Sources */,
+				CED9632C2174C64600BD5747 /* BottomMenuModel.swift in Sources */,
+				CED9633B2174C80600BD5747 /* StudentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +641,7 @@
 		};
 		CED9631E2174925700BD5747 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07AA8D8FF75C875126874AA /* Pods-UITabBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,13 +652,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Orang-Tua-Group.UITabBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		CED9631F2174925700BD5747 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FBE18895CC68DC90FCA8AA /* Pods-UITabBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,13 +670,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Orang-Tua-Group.UITabBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		CED963212174925700BD5747 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD58FC2A782CCC42239AAA9B /* Pods-UITabBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +698,7 @@
 		};
 		CED963222174925700BD5747 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEEB56DC73F331A7E165EF51 /* Pods-UITabBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +719,7 @@
 		};
 		CED963242174925700BD5747 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B114FC9C51803AAD90958A4F /* Pods-UITabBarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +739,7 @@
 		};
 		CED963252174925700BD5747 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389BD0738F0D880A97215B18 /* Pods-UITabBarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

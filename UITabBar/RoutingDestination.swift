@@ -6,4 +6,15 @@
 //  Copyright © 2018 JYSK Indonesia. All rights reserved.
 //
 
-import Foundation
+import ReSwift
+
+enum RoutingDestination : String {
+    case tab
+    
+    var controller: UIViewController {
+        switch self {
+        case .tab:
+            return TabBarViewController()
+        }
+    }
+}

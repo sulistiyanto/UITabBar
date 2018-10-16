@@ -1,0 +1,952 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002536834B6DB4C9001D659EAE95ECEE /* Pods-UITabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E58D6FD22836B8E1795D993E6E00BA /* Pods-UITabBar-dummy.m */; };
+		1E9888C84C11A6B02E6EADC8B6D98464 /* Pods-UITabBarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64544D5465637487209B7A167DA6D30B /* Pods-UITabBarTests-dummy.m */; };
+		1F8F373DB3D61C3E7341D275EC464C74 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871B7066428FF774C5F9208197F11C /* Middleware.swift */; };
+		2043EC7C8772209F417EAA431E0B8548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		28FBDAFE20636CAEEF0052D8C0505A04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		30E2B446A3E10F600FDD53586245F62B /* Pods-UITabBarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 892E7F22C758E5A9250920F18B993526 /* Pods-UITabBarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C837E5BBEF607D488B9977AE6427AC3 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C9E17987035DE48EA9493A0C11119 /* StoreType.swift */; };
+		3CAB62B6BD0805528A4D77FD4C7A4013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4D3F9D3A4ED423B1599A9DA59F59C98C /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FF8A70D2AC7A1D137462E1C3E5CB1 /* Subscription.swift */; };
+		591A2E98D62FC85DCFC9CA17B557FDAC /* Pods-UITabBarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0363B31D3BD338606B5749EBDC584E60 /* Pods-UITabBarUITests-dummy.m */; };
+		5C7B578A6E01F7580815C329542C5F12 /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDC964B22DDA588870C260A7A333C6 /* TypeHelper.swift */; };
+		683B06A09D22E1166EAB0B58FE6EECF5 /* Pods-UITabBarUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 309132274840646463755855D9F068DB /* Pods-UITabBarUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71E4D8A79E3BAF2BF21A01076A7DB429 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBAF76151CF858D574A099D1E7FC21 /* Store.swift */; };
+		7977204B3006324AE545FBF0548A14EC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E8868F8F6D6961F33EDED16FF1D5E /* State.swift */; };
+		83A9FB09A9F4C7E36EAEE283096705DF /* Pods-UITabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB6011A1DA2A391EB5D51226EF1CC36 /* Pods-UITabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		865F7C388617033F149AB2F3C521DEBA /* ReSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C725CAA1819E4CE7F26BCE1C18EC0C29 /* ReSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D24372BE23613E24683D9827E4159A /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C38E9357DF11B55A4279C68A73D47 /* Assertions.swift */; };
+		A01CD2FAE1F0DB8ED0EEC2E7A258610E /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711A63FBF227A0CA669ED1D1EDB8F56 /* Action.swift */; };
+		A3B62CB44CE444A48D27B0EB1C12B612 /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64CEF372085B24E500493911C621F9 /* StoreSubscriber.swift */; };
+		AE6C0893D35C1F621549A625A3A9A8D0 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71271725DE5CCC0BBEE81EB8E9D98E82 /* Reducer.swift */; };
+		C0AFD258BD6740F3799DD899D2649F21 /* ReSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB752D7054DBEA116738D7BA747A85 /* ReSwift-dummy.m */; };
+		CB4BA0EAB2EB15B299039D42CFA55F7E /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E955BFC89A34FDBF7FEE7631E7D19 /* DispatchingStoreType.swift */; };
+		EE4ED267A1B4DB72D5C8D1F67ADC8087 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79671FE58DCBAC8FB9711561D02ED4DA /* Coding.swift */; };
+		EF959CE46FB0C1FF3847F5CF67353484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3521520CC5DD2BA27FDC8067D7275723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC89035CFB41F3B0A10EBE397AB95AF;
+			remoteInfo = "Pods-UITabBar";
+		};
+		3789263BC5DD8481E9101760C4D00572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B6E614B2BB37DAB0F118228EF57B858;
+			remoteInfo = ReSwift;
+		};
+		5D9001C255C74D1E935556862022B2E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC89035CFB41F3B0A10EBE397AB95AF;
+			remoteInfo = "Pods-UITabBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0363B31D3BD338606B5749EBDC584E60 /* Pods-UITabBarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITabBarUITests-dummy.m"; sourceTree = "<group>"; };
+		05B2425784166DA2D59598927FFF30B1 /* Pods-UITabBarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITabBarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AFF5039AF16D7413470B94509750846 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A6A9D4123BFE8E341C9C8504543005 /* Pods-UITabBarUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITabBarUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1F3C38E9357DF11B55A4279C68A73D47 /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assertions.swift; path = ReSwift/Utils/Assertions.swift; sourceTree = "<group>"; };
+		20B4F410D655844A413283003D8D7A64 /* Pods-UITabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		2711A63FBF227A0CA669ED1D1EDB8F56 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = ReSwift/CoreTypes/Action.swift; sourceTree = "<group>"; };
+		27BB8A0CABD8A23EA1E90F524D6EDEBC /* Pods-UITabBarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITabBarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwift.xcconfig; sourceTree = "<group>"; };
+		308809D45FB36CE2CB2C7E33B791C36C /* Pods-UITabBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITabBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		309132274840646463755855D9F068DB /* Pods-UITabBarUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITabBarUITests-umbrella.h"; sourceTree = "<group>"; };
+		375E8868F8F6D6961F33EDED16FF1D5E /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = ReSwift/CoreTypes/State.swift; sourceTree = "<group>"; };
+		37EFCE3908EA011D377667CE6FEB52D6 /* Pods-UITabBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITabBar-resources.sh"; sourceTree = "<group>"; };
+		4A0D9FD1A39C55E4A2B408F01A48137E /* Pods-UITabBarUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITabBarUITests.modulemap"; sourceTree = "<group>"; };
+		544C6E1951A1B73F058B53E6A7AA5FF4 /* Pods-UITabBarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITabBarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D6DD2FEC914B2790FE6F23C84239D23 /* Pods-UITabBarUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITabBarUITests-resources.sh"; sourceTree = "<group>"; };
+		61A56AEC1621D1164340802AF9AF6188 /* Pods_UITabBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITabBarTests.framework; path = "Pods-UITabBarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64544D5465637487209B7A167DA6D30B /* Pods-UITabBarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITabBarTests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A517594084369C5309AA08596EAF537 /* Pods_UITabBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITabBarUITests.framework; path = "Pods-UITabBarUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71271725DE5CCC0BBEE81EB8E9D98E82 /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reducer.swift; path = ReSwift/CoreTypes/Reducer.swift; sourceTree = "<group>"; };
+		716FFF9471D992066E240BED644E35A4 /* Pods-UITabBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITabBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71B7A39925B8730822975B669A1033D0 /* Pods-UITabBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITabBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		77634F8505C761C3DE85EC0BD576C1BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79671FE58DCBAC8FB9711561D02ED4DA /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = ReSwift/Utils/Coding.swift; sourceTree = "<group>"; };
+		7A577F266ED9DE771FD1918D575E916B /* Pods-UITabBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITabBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80771B36D9D9BCBC3DF46ED759DB3D4D /* Pods-UITabBarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITabBarTests.modulemap"; sourceTree = "<group>"; };
+		81CBAF76151CF858D574A099D1E7FC21 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ReSwift/CoreTypes/Store.swift; sourceTree = "<group>"; };
+		81D960934C6E41BF1D4C0EFB5AAE1AE4 /* Pods_UITabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITabBar.framework; path = "Pods-UITabBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EDC964B22DDA588870C260A7A333C6 /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeHelper.swift; path = ReSwift/Utils/TypeHelper.swift; sourceTree = "<group>"; };
+		892E7F22C758E5A9250920F18B993526 /* Pods-UITabBarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITabBarTests-umbrella.h"; sourceTree = "<group>"; };
+		8E6C9E17987035DE48EA9493A0C11119 /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreType.swift; path = ReSwift/CoreTypes/StoreType.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9632B848A020E18CE30927D8BEB43D91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECB752D7054DBEA116738D7BA747A85 /* ReSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwift-dummy.m"; sourceTree = "<group>"; };
+		AB0963F46A8E92116B7CD61B8232401D /* Pods-UITabBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITabBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD6E955BFC89A34FDBF7FEE7631E7D19 /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchingStoreType.swift; path = ReSwift/CoreTypes/DispatchingStoreType.swift; sourceTree = "<group>"; };
+		AE64CEF372085B24E500493911C621F9 /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreSubscriber.swift; path = ReSwift/CoreTypes/StoreSubscriber.swift; sourceTree = "<group>"; };
+		BEB6011A1DA2A391EB5D51226EF1CC36 /* Pods-UITabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITabBar-umbrella.h"; sourceTree = "<group>"; };
+		C24FB44AEF67196A3FA5B1CC944562BA /* Pods-UITabBarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITabBarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4E58D6FD22836B8E1795D993E6E00BA /* Pods-UITabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITabBar-dummy.m"; sourceTree = "<group>"; };
+		C725CAA1819E4CE7F26BCE1C18EC0C29 /* ReSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-umbrella.h"; sourceTree = "<group>"; };
+		CE9FF8A70D2AC7A1D137462E1C3E5CB1 /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = ReSwift/CoreTypes/Subscription.swift; sourceTree = "<group>"; };
+		D4909154153E2FE4FFB186B609294A35 /* Pods-UITabBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITabBar-frameworks.sh"; sourceTree = "<group>"; };
+		D5FD691DE0A6F6EB3D4B1549B0D503BB /* Pods-UITabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITabBar.release.xcconfig"; sourceTree = "<group>"; };
+		DF00F887F15B2E15AF36620E45FA539E /* ReSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReSwift.modulemap; sourceTree = "<group>"; };
+		E04F33C445852B2FDA46399D2BFF8DF2 /* Pods-UITabBarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITabBarTests-resources.sh"; sourceTree = "<group>"; };
+		E42BD9616F386EE4E90A62ACB5EF0B4C /* Pods-UITabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITabBar.modulemap"; sourceTree = "<group>"; };
+		EE8171043749ABDFD58457BAE25857AF /* Pods-UITabBarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITabBarTests-frameworks.sh"; sourceTree = "<group>"; };
+		F993C47B25C906D7B5499E4CEB22F6DE /* Pods-UITabBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITabBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA2E066C6CC508A47FC206EE2DBE9F9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAECB0A07FFCD451E6DFFF43841A4BC6 /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReSwift.framework; path = ReSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC871B7066428FF774C5F9208197F11C /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = ReSwift/CoreTypes/Middleware.swift; sourceTree = "<group>"; };
+		FE06E1C81518F26C25E3FEACC6270203 /* ReSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1513F1AD3B6B9BE0B679FEC3D00FD1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF959CE46FB0C1FF3847F5CF67353484 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5995FE2EA4EAF87C8A68C3B380563A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2043EC7C8772209F417EAA431E0B8548 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A287648177A701A9D58E2D377061EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAB62B6BD0805528A4D77FD4C7A4013 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1269F92FCF76B3A1B3A9909F85AA661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FBDAFE20636CAEEF0052D8C0505A04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1334C0328849627CED539AF332118725 /* ReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2711A63FBF227A0CA669ED1D1EDB8F56 /* Action.swift */,
+				1F3C38E9357DF11B55A4279C68A73D47 /* Assertions.swift */,
+				79671FE58DCBAC8FB9711561D02ED4DA /* Coding.swift */,
+				AD6E955BFC89A34FDBF7FEE7631E7D19 /* DispatchingStoreType.swift */,
+				FC871B7066428FF774C5F9208197F11C /* Middleware.swift */,
+				71271725DE5CCC0BBEE81EB8E9D98E82 /* Reducer.swift */,
+				375E8868F8F6D6961F33EDED16FF1D5E /* State.swift */,
+				81CBAF76151CF858D574A099D1E7FC21 /* Store.swift */,
+				AE64CEF372085B24E500493911C621F9 /* StoreSubscriber.swift */,
+				8E6C9E17987035DE48EA9493A0C11119 /* StoreType.swift */,
+				CE9FF8A70D2AC7A1D137462E1C3E5CB1 /* Subscription.swift */,
+				83EDC964B22DDA588870C260A7A333C6 /* TypeHelper.swift */,
+				D3D68B54E743ABB0B1D0C26EC23C8DA4 /* Support Files */,
+			);
+			name = ReSwift;
+			path = ReSwift;
+			sourceTree = "<group>";
+		};
+		19E8CBF764E3E6C1BA97963AD050D992 /* Pods-UITabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AFF5039AF16D7413470B94509750846 /* Info.plist */,
+				80771B36D9D9BCBC3DF46ED759DB3D4D /* Pods-UITabBarTests.modulemap */,
+				27BB8A0CABD8A23EA1E90F524D6EDEBC /* Pods-UITabBarTests-acknowledgements.markdown */,
+				C24FB44AEF67196A3FA5B1CC944562BA /* Pods-UITabBarTests-acknowledgements.plist */,
+				64544D5465637487209B7A167DA6D30B /* Pods-UITabBarTests-dummy.m */,
+				EE8171043749ABDFD58457BAE25857AF /* Pods-UITabBarTests-frameworks.sh */,
+				E04F33C445852B2FDA46399D2BFF8DF2 /* Pods-UITabBarTests-resources.sh */,
+				892E7F22C758E5A9250920F18B993526 /* Pods-UITabBarTests-umbrella.h */,
+				716FFF9471D992066E240BED644E35A4 /* Pods-UITabBarTests.debug.xcconfig */,
+				71B7A39925B8730822975B669A1033D0 /* Pods-UITabBarTests.release.xcconfig */,
+			);
+			name = "Pods-UITabBarTests";
+			path = "Target Support Files/Pods-UITabBarTests";
+			sourceTree = "<group>";
+		};
+		517CD5B41302BF7723159B12A5F1FCA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D960934C6E41BF1D4C0EFB5AAE1AE4 /* Pods_UITabBar.framework */,
+				61A56AEC1621D1164340802AF9AF6188 /* Pods_UITabBarTests.framework */,
+				6A517594084369C5309AA08596EAF537 /* Pods_UITabBarUITests.framework */,
+				FAECB0A07FFCD451E6DFFF43841A4BC6 /* ReSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A58919414556FF8285FCC0A42B1AC168 /* Pods */,
+				517CD5B41302BF7723159B12A5F1FCA1 /* Products */,
+				8F1AE7E1CBA9FF39353D586A87B1413D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9520E9F77CB81643E591FFE6D73F69 /* Pods-UITabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2E066C6CC508A47FC206EE2DBE9F9C /* Info.plist */,
+				4A0D9FD1A39C55E4A2B408F01A48137E /* Pods-UITabBarUITests.modulemap */,
+				05B2425784166DA2D59598927FFF30B1 /* Pods-UITabBarUITests-acknowledgements.markdown */,
+				544C6E1951A1B73F058B53E6A7AA5FF4 /* Pods-UITabBarUITests-acknowledgements.plist */,
+				0363B31D3BD338606B5749EBDC584E60 /* Pods-UITabBarUITests-dummy.m */,
+				18A6A9D4123BFE8E341C9C8504543005 /* Pods-UITabBarUITests-frameworks.sh */,
+				5D6DD2FEC914B2790FE6F23C84239D23 /* Pods-UITabBarUITests-resources.sh */,
+				309132274840646463755855D9F068DB /* Pods-UITabBarUITests-umbrella.h */,
+				7A577F266ED9DE771FD1918D575E916B /* Pods-UITabBarUITests.debug.xcconfig */,
+				308809D45FB36CE2CB2C7E33B791C36C /* Pods-UITabBarUITests.release.xcconfig */,
+			);
+			name = "Pods-UITabBarUITests";
+			path = "Target Support Files/Pods-UITabBarUITests";
+			sourceTree = "<group>";
+		};
+		8F1AE7E1CBA9FF39353D586A87B1413D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6D76D3CE55A7E7E44295B9BAF8C5115 /* Pods-UITabBar */,
+				19E8CBF764E3E6C1BA97963AD050D992 /* Pods-UITabBarTests */,
+				7F9520E9F77CB81643E591FFE6D73F69 /* Pods-UITabBarUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A58919414556FF8285FCC0A42B1AC168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1334C0328849627CED539AF332118725 /* ReSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3D68B54E743ABB0B1D0C26EC23C8DA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9632B848A020E18CE30927D8BEB43D91 /* Info.plist */,
+				DF00F887F15B2E15AF36620E45FA539E /* ReSwift.modulemap */,
+				305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */,
+				9ECB752D7054DBEA116738D7BA747A85 /* ReSwift-dummy.m */,
+				FE06E1C81518F26C25E3FEACC6270203 /* ReSwift-prefix.pch */,
+				C725CAA1819E4CE7F26BCE1C18EC0C29 /* ReSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReSwift";
+			sourceTree = "<group>";
+		};
+		F6D76D3CE55A7E7E44295B9BAF8C5115 /* Pods-UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				77634F8505C761C3DE85EC0BD576C1BA /* Info.plist */,
+				E42BD9616F386EE4E90A62ACB5EF0B4C /* Pods-UITabBar.modulemap */,
+				F993C47B25C906D7B5499E4CEB22F6DE /* Pods-UITabBar-acknowledgements.markdown */,
+				AB0963F46A8E92116B7CD61B8232401D /* Pods-UITabBar-acknowledgements.plist */,
+				C4E58D6FD22836B8E1795D993E6E00BA /* Pods-UITabBar-dummy.m */,
+				D4909154153E2FE4FFB186B609294A35 /* Pods-UITabBar-frameworks.sh */,
+				37EFCE3908EA011D377667CE6FEB52D6 /* Pods-UITabBar-resources.sh */,
+				BEB6011A1DA2A391EB5D51226EF1CC36 /* Pods-UITabBar-umbrella.h */,
+				20B4F410D655844A413283003D8D7A64 /* Pods-UITabBar.debug.xcconfig */,
+				D5FD691DE0A6F6EB3D4B1549B0D503BB /* Pods-UITabBar.release.xcconfig */,
+			);
+			name = "Pods-UITabBar";
+			path = "Target Support Files/Pods-UITabBar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54D7EE84FDD73B18714BA189E360D4A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683B06A09D22E1166EAB0B58FE6EECF5 /* Pods-UITabBarUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D48A9E631664A625CE74EC304661E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865F7C388617033F149AB2F3C521DEBA /* ReSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B7EAF5C9AA0B551A00B9FAFCAACAE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E2B446A3E10F600FDD53586245F62B /* Pods-UITabBarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF6C7AADCA521D4FBC5D4C3DD26BFA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A9FB09A9F4C7E36EAEE283096705DF /* Pods-UITabBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1891C24C7E4A51CD516FC85E00DC4F85 /* Pods-UITabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A682121BDFF790FB673D6EA1CF9B639 /* Build configuration list for PBXNativeTarget "Pods-UITabBarUITests" */;
+			buildPhases = (
+				BE99B7B55EB2E95A76527D5072DA0390 /* Sources */,
+				5995FE2EA4EAF87C8A68C3B380563A32 /* Frameworks */,
+				54D7EE84FDD73B18714BA189E360D4A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D679546032248DCFEC84715B4C5A8408 /* PBXTargetDependency */,
+			);
+			name = "Pods-UITabBarUITests";
+			productName = "Pods-UITabBarUITests";
+			productReference = 6A517594084369C5309AA08596EAF537 /* Pods_UITabBarUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B6E614B2BB37DAB0F118228EF57B858 /* ReSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4E4D779BC3C92B3896E1BB729A1FFD /* Build configuration list for PBXNativeTarget "ReSwift" */;
+			buildPhases = (
+				99DC23F9DF19E656CE64D4D5C8848256 /* Sources */,
+				A2A287648177A701A9D58E2D377061EB /* Frameworks */,
+				59D48A9E631664A625CE74EC304661E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReSwift;
+			productName = ReSwift;
+			productReference = FAECB0A07FFCD451E6DFFF43841A4BC6 /* ReSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFDF708AA3D1E8C07EC455157D414E62 /* Pods-UITabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05AD19B2FF9FD7EB9994DC88B92A998 /* Build configuration list for PBXNativeTarget "Pods-UITabBarTests" */;
+			buildPhases = (
+				A4067076ABBB7458EF19B82B6F6A89F5 /* Sources */,
+				1513F1AD3B6B9BE0B679FEC3D00FD1ED /* Frameworks */,
+				A7B7EAF5C9AA0B551A00B9FAFCAACAE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC111F8FFECD01FCE5814EA98E28429 /* PBXTargetDependency */,
+			);
+			name = "Pods-UITabBarTests";
+			productName = "Pods-UITabBarTests";
+			productReference = 61A56AEC1621D1164340802AF9AF6188 /* Pods_UITabBarTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCC89035CFB41F3B0A10EBE397AB95AF /* Pods-UITabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FD3902BCC3988317070E592F2A8290 /* Build configuration list for PBXNativeTarget "Pods-UITabBar" */;
+			buildPhases = (
+				4A083A2ABD11940270E4786E46177D12 /* Sources */,
+				E1269F92FCF76B3A1B3A9909F85AA661 /* Frameworks */,
+				FDF6C7AADCA521D4FBC5D4C3DD26BFA3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				422119F7FA0A8D6D130492A766F9FCD3 /* PBXTargetDependency */,
+			);
+			name = "Pods-UITabBar";
+			productName = "Pods-UITabBar";
+			productReference = 81D960934C6E41BF1D4C0EFB5AAE1AE4 /* Pods_UITabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 517CD5B41302BF7723159B12A5F1FCA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC89035CFB41F3B0A10EBE397AB95AF /* Pods-UITabBar */,
+				DFDF708AA3D1E8C07EC455157D414E62 /* Pods-UITabBarTests */,
+				1891C24C7E4A51CD516FC85E00DC4F85 /* Pods-UITabBarUITests */,
+				8B6E614B2BB37DAB0F118228EF57B858 /* ReSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A083A2ABD11940270E4786E46177D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002536834B6DB4C9001D659EAE95ECEE /* Pods-UITabBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DC23F9DF19E656CE64D4D5C8848256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01CD2FAE1F0DB8ED0EEC2E7A258610E /* Action.swift in Sources */,
+				93D24372BE23613E24683D9827E4159A /* Assertions.swift in Sources */,
+				EE4ED267A1B4DB72D5C8D1F67ADC8087 /* Coding.swift in Sources */,
+				CB4BA0EAB2EB15B299039D42CFA55F7E /* DispatchingStoreType.swift in Sources */,
+				1F8F373DB3D61C3E7341D275EC464C74 /* Middleware.swift in Sources */,
+				AE6C0893D35C1F621549A625A3A9A8D0 /* Reducer.swift in Sources */,
+				C0AFD258BD6740F3799DD899D2649F21 /* ReSwift-dummy.m in Sources */,
+				7977204B3006324AE545FBF0548A14EC /* State.swift in Sources */,
+				71E4D8A79E3BAF2BF21A01076A7DB429 /* Store.swift in Sources */,
+				A3B62CB44CE444A48D27B0EB1C12B612 /* StoreSubscriber.swift in Sources */,
+				3C837E5BBEF607D488B9977AE6427AC3 /* StoreType.swift in Sources */,
+				4D3F9D3A4ED423B1599A9DA59F59C98C /* Subscription.swift in Sources */,
+				5C7B578A6E01F7580815C329542C5F12 /* TypeHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4067076ABBB7458EF19B82B6F6A89F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9888C84C11A6B02E6EADC8B6D98464 /* Pods-UITabBarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE99B7B55EB2E95A76527D5072DA0390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591A2E98D62FC85DCFC9CA17B557FDAC /* Pods-UITabBarUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		422119F7FA0A8D6D130492A766F9FCD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReSwift;
+			target = 8B6E614B2BB37DAB0F118228EF57B858 /* ReSwift */;
+			targetProxy = 3789263BC5DD8481E9101760C4D00572 /* PBXContainerItemProxy */;
+		};
+		ADC111F8FFECD01FCE5814EA98E28429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UITabBar";
+			target = FCC89035CFB41F3B0A10EBE397AB95AF /* Pods-UITabBar */;
+			targetProxy = 3521520CC5DD2BA27FDC8067D7275723 /* PBXContainerItemProxy */;
+		};
+		D679546032248DCFEC84715B4C5A8408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UITabBar";
+			target = FCC89035CFB41F3B0A10EBE397AB95AF /* Pods-UITabBar */;
+			targetProxy = 5D9001C255C74D1E935556862022B2E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1050348D2ED85D2F2AD7420E26830378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53BC815D3D804DB977C879580F3E0622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A577F266ED9DE771FD1918D575E916B /* Pods-UITabBarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITabBarUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITabBarUITests/Pods-UITabBarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89CC85CD7F71ADA805EEA4D0F6DCB500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308809D45FB36CE2CB2C7E33B791C36C /* Pods-UITabBarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITabBarUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITabBarUITests/Pods-UITabBarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92C4E6A41FC371767D618BC56D5AB887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716FFF9471D992066E240BED644E35A4 /* Pods-UITabBarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITabBarTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITabBarTests/Pods-UITabBarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9492D5AC823ACDA3B3F6C90B14613B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FD691DE0A6F6EB3D4B1549B0D503BB /* Pods-UITabBar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITabBar/Pods-UITabBar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC015AE32BB5AD073F9CDA5DCCD6F995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B4F410D655844A413283003D8D7A64 /* Pods-UITabBar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITabBar/Pods-UITabBar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D78CE84B8044B73A32D1B03C3887F23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8367CB44B05C8B36FA396D5D7CE27D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B7A39925B8730822975B669A1033D0 /* Pods-UITabBarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITabBarTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITabBarTests/Pods-UITabBarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A682121BDFF790FB673D6EA1CF9B639 /* Build configuration list for PBXNativeTarget "Pods-UITabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53BC815D3D804DB977C879580F3E0622 /* Debug */,
+				89CC85CD7F71ADA805EEA4D0F6DCB500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05AD19B2FF9FD7EB9994DC88B92A998 /* Build configuration list for PBXNativeTarget "Pods-UITabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C4E6A41FC371767D618BC56D5AB887 /* Debug */,
+				D8367CB44B05C8B36FA396D5D7CE27D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FD3902BCC3988317070E592F2A8290 /* Build configuration list for PBXNativeTarget "Pods-UITabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC015AE32BB5AD073F9CDA5DCCD6F995 /* Debug */,
+				9492D5AC823ACDA3B3F6C90B14613B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4E4D779BC3C92B3896E1BB729A1FFD /* Build configuration list for PBXNativeTarget "ReSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1050348D2ED85D2F2AD7420E26830378 /* Debug */,
+				D78CE84B8044B73A32D1B03C3887F23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

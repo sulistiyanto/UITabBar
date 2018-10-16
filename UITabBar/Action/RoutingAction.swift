@@ -6,4 +6,9 @@
 //  Copyright © 2018 JYSK Indonesia. All rights reserved.
 //
 
-import Foundation
+import ReSwift
+
+struct RoutingAction: Action {
+    let destination: RoutingDestination
+    let segue : Segue
+}

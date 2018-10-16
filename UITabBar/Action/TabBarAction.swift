@@ -6,4 +6,8 @@
 //  Copyright © 2018 JYSK Indonesia. All rights reserved.
 //
 
-import Foundation
+import ReSwift
+
+struct TabBarAction: Action {
+    let menu: Menu
+}
